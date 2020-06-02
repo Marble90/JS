@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    height: 100%;
+    background-color: #FFB6C1;
+    
+    
+}
+ h1{
+     font-size: 3rem;
+     font-weight: 50;
+     margin: 1rem 0 1rem;
+     text-align: center;
+     color: #fff;
+     font-family: 'Hind', sans-serif;
+ }
+
+ .styling{
+     font-weight: 800;
+     color: #FF1493
+ }
+
+ .img{ 
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+ }
+
+ .imgDiv{
+     width: 250px;
+     height: 200px;
+     border-radius: 45%;
+     justify-content: center;
+     background-image: url("beautiful.jpg");
+     background-size: 250px 200px;
+     display: flex;
+     align-items: center;
+ }
+
+  #date{
+    color: #E00;
+    font-family: 'Hind', sans-serif;
+    font-size: larger;
+    /* background-color: #E00; */
+}
+ 
+ .input_div{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center ;
+ }
+
+
+
+ .input {
+     padding: 0.5rem 1rem;
+     height: 50px;
+     outline: none;
+     border: none;
+     background-color: #fff;
+     width: 450px;
+     font-size: 1.15rem;
+     margin: 0.25rem;
+     border-radius: 25px;
+     
+ }
+ 
+
+
+
+ .addButton {
+     height: 50px;
+     width: 50px;
+     border-radius: 25px;
+     outline: none;
+     border: none;
+     color: #fff;
+     margin: 0.25rem;
+     background-color: #FF69B4;
+     cursor: pointer;
+ }
+
+ .addButton:hover{
+     opacity: 0.6;
+ }
+
+
+
+ .container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin-top: 2rem;
+
+ }
+
+ #outer {
+     /* width: 100%; */
+     text-align: center; 
+     margin-bottom: 4rem;
+     
+ }
+
+ .btnSave{
+    padding: 8px 16px;
+    background-color: white; 
+  color: black; 
+  border: 2px solid#6A5ACD;
+  transition-duration: 0.7s;
+  cursor: pointer;
+  
+ }
+
+ .btnSave:hover {
+    background-color: #6A5ACD;
+    color: white;
+  }
+
+  .btnClear{
+    padding:8px 16px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    transition-duration: 0.7s;
+    cursor: pointer;
+ }
+
+ .btnClear:hover {
+    background-color: #555555;
+  color: white;
+  }
+
+
+ .item{
+     display: flex;
+     align-items: center;
+     padding: 0.5rem;
+     margin-bottom: 1.5rem;
+     border-bottom: 4px solid #FF69B4;   
+ }
+
+ .item_input{
+     background: none;
+     outline: none;
+     color: #fff;
+     border: none;
+     width: 350px;
+     font-size: 1.4rem; 
+ }
+
+ .editButton{
+     font-size: 1.4rem;
+      margin: 0 0.5rem;
+      font-family: 'Hind', sans-serif;
+      background: none;
+      outline: none;
+      color: #6A5ACD;
+      border: none;
+      cursor: pointer;
+   
+ }
+
+ .removeButton{
+    font-size: 1.4rem;
+     margin: 0 0.5rem;
+     font-family: 'Hind', sans-serif;
+     background: none;
+     outline: none;
+     color: #E00;
+     border: none;
+     cursor: pointer;
+  
+}
+
+.mycheckbox {
+    width: 20px;
+    height: 20px;
+    border: 1px solid lime;
+    border-radius: 45%;
+    margin-right: 10px;
+ }
